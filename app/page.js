@@ -107,11 +107,12 @@ export default function Home() {
           <h4>Programming</h4>
           <ul>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>React.js</li>
+            <li>React Native</li>
             <li>Python</li>
             <li>HTML</li>
             <li>CSS/SCSS</li>
-            <li>Go</li>
             <li>Java</li>
             <li>C++</li>
           </ul>
@@ -379,16 +380,6 @@ export default function Home() {
             </p>
             <p>
               <b>Origin:</b> Personal
-            </p>
-            <p>
-              <b>Link:</b>{" "}
-              <a
-                href="https://briscolacardgame.herokuapp.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://briscolacardgame.herokuapp.com
-              </a>
             </p>
             <p>
               <b>Repo:</b>{" "}

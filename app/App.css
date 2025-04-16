@@ -5,7 +5,8 @@
   width: 100%;
 }
 
-body, html {
+body,
+html {
   scroll-behavior: smooth;
   margin: 0;
   font-family: "Courier New" !important;
@@ -28,7 +29,7 @@ body, html {
   position: absolute;
   transform: translateX(-50%);
   vertical-align: middle;
-  height: 100%; 
+  height: 100%;
 }
 
 .sunBanner p {
@@ -54,15 +55,15 @@ body, html {
   text-decoration: none !important;
   font-size: x-large;
   height: 100%;
-  transition: .2s;
-  -webkit-transition: .2s;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
 }
 
 .sunBanner a:hover {
   color: black;
   background-color: rgb(231, 172, 44);
-  transition: .2s;
-  -webkit-transition: .2s;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
 }
 
 .sunBanner #dropdown {
@@ -86,7 +87,7 @@ body, html {
   width: 96%;
   height: 85vh;
   margin-left: 2%;
-  margin-bottom: 2%; 
+  margin-bottom: 2%;
   box-shadow: 0px 5px 5px grey;
   border-radius: 5px;
   overflow: hidden;
@@ -103,27 +104,31 @@ body, html {
   position: relative;
 }
 
- /*EXPERIENCE PAGE*/
+/*EXPERIENCE PAGE*/
 
-.experience{
- text-align: left;
- overflow-x: auto;
- height: 100%;
- flex: .25;
- border-right: 2px solid black;
+.experience {
+  text-align: left;
+  overflow-x: auto;
+  height: 100%;
+  flex: 0.25;
+  border-right: 2px solid black;
 }
 
 #traits {
   border-right: none;
 }
 
-.experience h6, .experience h5, .experience h4, .experience h3, .experience h2 {
+.experience h6,
+.experience h5,
+.experience h4,
+.experience h3,
+.experience h2 {
   margin-top: 6%;
   margin-left: 3%;
   text-decoration: underline;
 }
 
-#xp img{
+#xp img {
   width: 25%;
   height: auto;
 }
@@ -134,7 +139,7 @@ body, html {
 
 .experience h2 {
   font-weight: bold;
-} 
+}
 
 .experience:nth-child(odd) {
   background-color: white;
@@ -168,7 +173,7 @@ body, html {
   list-style: circle black;
 }
 
-#xp img{
+#xp img {
   width: 25%;
   margin-left: 5%;
   margin-bottom: 2%;
@@ -197,11 +202,12 @@ body, html {
   font-size: large;
 }
 
-#me, #info {
- overflow-x: auto;
- flex: .5;
- height: inherit;
- background-color: rgb(235, 232, 232);
+#me,
+#info {
+  overflow-x: auto;
+  flex: 0.5;
+  height: inherit;
+  background-color: rgb(235, 232, 232);
 }
 
 #info ul {
@@ -219,8 +225,9 @@ body, html {
 
 /*PROJECTS PAGE*/
 
-.project, .project-cont {
-  flex: .5;
+.project,
+.project-cont {
+  flex: 0.5;
   overflow-x: hidden;
 }
 
@@ -251,13 +258,13 @@ body, html {
   color: white;
   background-color: unset;
   border: unset;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 #pager-nav button:hover {
   color: black;
   background-color: rgb(231, 172, 44);
-  transition: .2s;
+  transition: 0.2s;
 }
 
 #pager-nav button:nth-child(1) {
@@ -268,7 +275,8 @@ body, html {
   float: right;
 }
 
-.project img, .project-cont img {
+.project img,
+.project-cont img {
   max-width: 45%;
   max-height: 45%;
   margin-top: 13%;
@@ -276,7 +284,8 @@ body, html {
   box-shadow: 5px 5px 5px grey;
 }
 
-.project p, .project-cont p {
+.project p,
+.project-cont p {
   width: 100%;
   padding: 3%;
   text-align: left;
@@ -295,7 +304,7 @@ body, html {
 /*SMALL VIEWPORT VIEW*/
 
 @media only screen and (max-width: 900px) {
-   .page {
+  .page {
     margin-bottom: 15px;
     display: block;
   }
@@ -305,10 +314,13 @@ body, html {
   #section1 {
     margin-top: 26%;
   }
-  #me, #info {
+  #me,
+  #info {
     font-size: x-large !important;
   }
-  #me, .experience, #project {
+  #me,
+  .experience,
+  #project {
     border: none;
     border-bottom: 2px black solid;
   }
@@ -334,12 +346,12 @@ body, html {
     width: 100%;
   }
   .sunBanner #nav a {
-    flex: calc(100%/3);
+    flex: calc(100% / 3);
     font-size: unset;
     justify-content: center;
     padding: 0;
   }
-  .sunBanner img{
+  .sunBanner img {
     height: 50%;
     top: 0;
   }
@@ -347,7 +359,7 @@ body, html {
     display: none;
   }
   .section-jumps p {
-    height: 174vh
+    height: 174vh;
   }
   #pager-nav {
     width: 80%;
@@ -360,10 +372,10 @@ body, html {
     border: none;
     border-bottom: 2px solid black;
   }
-  .project p{
+  .project p {
     font-size: large;
   }
-  .project-cont p{
+  .project-cont p {
     font-size: unset;
     margin: 0;
     padding-top: 2%;
@@ -373,7 +385,11 @@ body, html {
   }
 }
 
-@keyframes fadein{
-  from {opacity: 0%;}
-  to {opacity: 100%;}
+@keyframes fadein {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
